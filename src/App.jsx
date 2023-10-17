@@ -50,7 +50,7 @@ export default function App() {
   };
 
   return (
-    <>
+    <div>
       <Navbar />
       <section
         className="carousel"
@@ -261,9 +261,9 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section className="reviewer my-[70px] relative">
+      <section className="reviewer my-[70px] relative max-w-[97%]">
         <p
-          className="text-center text-2xl font-medium text-[#222534]"
+          className="text-center text-2xl font-medium text-[#222534] ml-10"
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-easing="linier"
@@ -271,7 +271,7 @@ export default function App() {
           Our Happy Customers
         </p>
         <div
-          className="card-our-review grid place-content-center mt-12"
+          className="card-our-review grid place-content-center mt-12 ml-10"
           data-aos="flip-down"
           data-aos-duration="1000"
           data-aos-easing="linier"
@@ -340,9 +340,9 @@ export default function App() {
             View All Stories
           </a>
         </div>
-        <div className="image-mixed ">
+        <div className="image-mixed">
           <div
-            className="img-1 border border-[#E7E7E7] rounded-full absolute top-40 left-32"
+            className="img-1 border border-[#E7E7E7] rounded-full absolute top-40 left-40"
             data-aos="fade-right"
             data-aos-duration="600"
             data-aos-easing="linier"
@@ -350,7 +350,7 @@ export default function App() {
             <img src={cust1} alt="" />
           </div>
           <div
-            className="img-2 border border-[#E7E7E7] rounded-full absolute top-24 left-80"
+            className="img-2 border border-[#E7E7E7] rounded-full absolute top-24 left-96"
             data-aos="fade-right"
             data-aos-duration="400"
             data-aos-easing="linier"
@@ -358,7 +358,7 @@ export default function App() {
             <img src={cust2} alt="" />
           </div>
           <div
-            className="img-3 border border-[#E7E7E7] rounded-full absolute top-64 left-64"
+            className="img-3 border border-[#E7E7E7] rounded-full absolute top-64 left-72"
             data-aos="fade-right"
             data-aos-duration="500"
             data-aos-easing="linier"
@@ -366,7 +366,7 @@ export default function App() {
             <img src={cust3} alt="" />
           </div>
           <div
-            className="img-4 border border-[#E7E7E7] rounded-full absolute top-64 right-96"
+            className="img-4 border border-[#E7E7E7] rounded-full absolute top-64 right-80"
             data-aos="fade-left"
             data-aos-duration="400"
             data-aos-easing="linier"
@@ -374,7 +374,7 @@ export default function App() {
             <img src={cust4} alt="" />
           </div>
           <div
-            className="img-5 border border-[#E7E7E7] rounded-full absolute top-28 right-72"
+            className="img-5 border border-[#E7E7E7] rounded-full absolute top-28 right-64"
             data-aos="fade-left"
             data-aos-duration="500"
             data-aos-easing="linier"
@@ -382,7 +382,7 @@ export default function App() {
             <img src={cust5} alt="" />
           </div>
           <div
-            className="img-6 border border-[#E7E7E7] rounded-full absolute top-48 right-40"
+            className="img-6 border border-[#E7E7E7] rounded-full absolute top-48 right-28"
             data-aos="fade-left"
             data-aos-duration="600"
             data-aos-easing="linier"
@@ -391,6 +391,6 @@ export default function App() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
